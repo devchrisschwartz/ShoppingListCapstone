@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<script src="code.js" async></script>
+</head>
+<body>
+	<h1>Shopping List</h1>
+	
+	<button onclick="addToList(0)">Bread $2</button>
+	<button onclick="addToList(1)">Cola $1</button>
+	<button onclick="addToList(2)">Cheese $1.50</button>
+	<button onclick="checkOut()">Check Out</button>
+
+	<br /><br />
+
+	<table border="1" id="shoppingList">
+	<tr>
+		<th>Item Name</th>
+		<!--<th>Quantity</th>-->
+		<th>Price</th>
+	</tr>
+	</table>
+
+	<br />
+
+	
+	<table border="1" id="checkOut">
+	<tr>
+		<th>Item Name</th>
+		<th>Quantity</th>
+		<th>Price</th>
+	</tr>
+	</table>
+
+	<br />
+
+	<p id="total"></p> 
+
+</body>
+</html>
